@@ -10,6 +10,8 @@ admin_bp = Blueprint('admin', __name__)
 def load_page(page):
     return render_template(f'{page}.html')
 
+# B3修改了这里
+
 # 获取用户列表
 @admin_bp.route('/admin/users', methods=['GET'])
 def get_users():

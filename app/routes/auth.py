@@ -45,7 +45,7 @@ def login():
         if 'connection' in locals():
             connection.close()
 
-
+# B3修改了这里
 @auth_bp.route('/register', methods=['POST'])
 def register():
     data = request.get_json()
