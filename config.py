@@ -6,3 +6,6 @@ DB_CONFIG = {
     "password": "nicaiyixia",
     "database": "smart_ocean_ranch"
 }
+
+# 这是B2自己的部分
+# B22222222222222
