@@ -4,7 +4,8 @@ import pymysql
 from config import DB_CONFIG  # 从 config.py 导入数据库配置
 
 auth_bp = Blueprint('auth', __name__)  # 创建 Blueprint
-
+# 这是C4自己的部分
+# C44444444444444
 @auth_bp.route('/login', methods=['POST'])
 def login():
     data = request.get_json()
