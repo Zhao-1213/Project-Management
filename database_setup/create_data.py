@@ -1,7 +1,7 @@
 from faker import Faker
 import mysql.connector
 import random
-
+# 生成测试数据
 def insert_fake_data():
     # 初始化 Faker
     fake = Faker()
