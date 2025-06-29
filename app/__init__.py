@@ -11,6 +11,8 @@ from app.routes.underwater import bp as underwater_bp   # 水下系统蓝图
 from app.routes.smartcenter import bp as smartcenter_bp # 智能中心蓝图
 from app.routes.datacenter import bp as datacenter_bp   # 数据中心蓝图
 
+# 这是C4自己的部分
+# C44444444444444
 def create_app():
     app = Flask(__name__)
 

@@ -4,7 +4,8 @@ import pymysql
 from config import DB_CONFIG  # 从 config.py 导入数据库配置
 
 admin_bp = Blueprint('admin', __name__)
-
+# 这是C4自己的部分
+# C44444444444444
 # 加载用户相关的页面
 @admin_bp.route('/admin/<page>')
 def load_page(page):
